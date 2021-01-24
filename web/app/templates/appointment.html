@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block appointment %}
+<div class="appointment-form">
+                     <h3><span>+</span> Book Appointment</h3>
+                     <div class="form">
+
+<center>
+<br><h1><b>Review Your Informations</b></h1><hr>
+<strong>Name:-</strong>{{name}}<br>
+<strong>Email:-</strong>{{email}}<br>
+<strong>Day:-</strong>{{day}}<br>
+<strong>Time:-</strong>{{time}}<br>
+<strong>Doctor:-</strong>{{doctor}}<br>
+<strong>Message:-</strong>{{msg}}
+</center>
+<br><hr>
+<strong>Note:-</strong><b>This appointment hasn't been set yet.We will contact you shortly to confirm your appointment</b>
+                     </div>
+                  </div>
+{% endblock %}
